@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>I use my hair to express myself.</title>
+<style type="text/css">
+body {
+display: flex;
+	display: -webkit-box;
+	display: -moz-box; 
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+justify-content: center;
+   -webkit-box-pack: center; -moz-box-pack: center; 
+   -ms-flex-pack: center; 
+   -webkit-justify-content: center;
+
+align-items: center;
+   -webkit-box-align: center; 
+   -moz-box-align: center;
+   -ms-flex-align: center;
+   -webkit-align-items: center;
+
+background: url(thinkcreative.jpg) no-repeat center fixed; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+
+background-size:cover;
+   margin: 0;
+   min-height: 766px;
+   min-width: 766px;
+   height: 100%;
+   width: 100% /* needed for Firefox */
+}
+
+/*div {
+	display: flex;
+ 	display: -webkit-box;
+	display: -moz-box; 
+	display: -ms-flexbox;
+	display: -webkit-flex;
+   align-items: center;
+      -webkit-box-align: center; 
+   -moz-box-align: center;
+   -ms-flex-align: center;
+   -webkit-align-items: center;
+   justify-content: center;
+   -webkit-box-pack: center; -moz-box-pack: center; 
+   -ms-flex-pack: center; 
+   -webkit-justify-content: center;
+   height: 10rem;
+  
+}*/
+
+p {
+	color:white;
+	font-weight:bold;
+	font-size:60px;
+}
+.flex {
+	display: flex;
+		display: -webkit-box;
+		display: -moz-box; 
+		display: -ms-flexbox;
+		display: -webkit-flex;
+	align-items: center;
+		-webkit-box-align: center; 
+   		-moz-box-align: center;
+   		-ms-flex-align: center;
+   		-webkit-align-items: center;
+		justify-content: center;
+   -webkit-box-pack: center; -moz-box-pack: center; 
+   -ms-flex-pack: center; 
+   -webkit-justify-content: center;
+	text-align: center;
+	font-family: Calibri, Tahoma, Geneva, sans-serif;
+}
+</style>
+</head>
+<body>
+<div class="flex">
+<p id="colorOutput" class="flex"></p>
+<br />
+WHAT'S YOUR FAVORITE COLOR?<br /><br />
+<script type="text/javascript" src="colours.js"></script>
+<input type="text" class="flex" id="colorInput"></input><br /><br />
+<button onClick="getColor()">Colors!</button></div>
+</div>
+</body>
+</html>
